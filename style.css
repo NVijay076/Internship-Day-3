@@ -17,6 +17,12 @@
     --muted: #9aa4b2; /* muted light */
 }
 
+/* Make project titles fully black in dark mode for maximum contrast */
+[data-theme="dark"] .project-card h3{
+    color: #000000;
+    font-weight: 800;
+}
+
 /* Theme toggle button */
 .theme-toggle{
     margin-left:0.8rem;
